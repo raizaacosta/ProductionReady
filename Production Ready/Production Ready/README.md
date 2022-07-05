@@ -1,5 +1,5 @@
 ## ¿Que es "Production Ready"?
-**Production Ready** es el estandar que define la base minima de excelencia operacional que deberia cumplir cualquier equipo en MAPFRE. Define:
+**Production Ready** es el estandar que define la base minima de excelencia operacional que deberia cumplir cualquier equipo . Define:
 
 - Que hay que cumplir.
 - Como documentar y asegurar que se haya cumplido.
