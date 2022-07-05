@@ -1,2 +1,2 @@
-# ProductioReady
-Plantillas de ProductioReady que puedes utilizar en los proyectos
+# ProductionReady
+Plantillas de ProductionReady que puedes utilizar en los proyectos
