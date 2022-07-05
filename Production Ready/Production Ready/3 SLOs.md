@@ -17,7 +17,7 @@ Es complejo definir SLOs, porque son metricas que deberian indicar la experienci
 This section is where you need to explain the level of your Legal (SLA) and Technical (SLO) Agreements and Objectives.
 
 ### SLA
-SLA is a legal agreement, you only use it if you are selling your Product outside of MAPFRE.
+SLA is a legal agreement, you only use it if you are selling your Product outside .
 
 ### SLO
 SLO is an Objective that measures how Reliable you want your Product to be. Have in mind that more 9-s mean a more expensive service.
