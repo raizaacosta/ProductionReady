@@ -9,7 +9,7 @@ This topics and requirements need to be check and discuss in the meeting are:
     - AWS services used.
     - Third party services used.
     - Cconnections with on-premise or other accounts.
-    - CNAMEs with MAPFRE domains.
+    - CNAMEs with  domains.
     - Other issues regarding security.
 
 </br>
