@@ -29,7 +29,7 @@ This topics and requirements need to be check and discuss in the meeting are:
 
 ##### Authentication 
 
-- The method for authenticating users is documented. If the application is connected to the MAPFRE ADFS, please specify it.
+- The method for authenticating users is documented. If the application is connected to the  ADFS, please specify it.
 
 ##### Data
 
