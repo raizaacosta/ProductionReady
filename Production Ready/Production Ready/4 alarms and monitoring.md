@@ -1,42 +1,44 @@
-## DATOS
+## Español
+
+## DATA
  
- - **PLATFORM**: Indicate on which monitoring or alerted platform the alarm is.
+ - PLATAFORMA**: Indica en qué plataforma de monitorización o alerta se encuentra la alarma.
 
- - **DESCRIPTION**: What is the purpose of the alarm or monitoring
+ - **DESCRIPCIÓN**: Cuál es el objetivo de la alarma o de la monitorización.
 
- - **ELEMENT TO ALERT OR MONITOR**: The name of the element and its type (ec2, RDS, etc)
+ - **ELEMENTO A ALERTAR O MONITORIZAR**: El nombre del elemento y su tipo (ec2, RDS, etc)
 
- - **LOSS OF SERVICE**: Yes or No
+ - **PÉRDIDA DE SERVICIO**: Sí o No
 
- - **HIGH PRIORITY**: High / Medium / Low depending on the relevance of the event.
+ - **PRIORIDAD ALTA**: Alta / Media / Baja en función de la relevancia del evento.
 
- - **ATTENTION RANGE**: Indicate the period of time in which the alerted is attended (24x7, 8x5, ...)
+ - **RANGO DE ATENCIÓN**: Indicar el periodo de tiempo en el que se atiende el alertado (24x7, 8x5, ...)
 
- - **RANGO ATENCION**: Indicar el periodo de tiempo en el que se atiende el alertado (24x7, 8x5, ...)
+ - **RANGO DE ATENCION**: Indicar el periodo de tiempo en el que se atiende el alertado (24x7, 8x5, ...)
  
-## COMMUNICATION MECHANISMS
-There are automatic communication methods for sending alerts.
+## MECANISMOS DE COMUNICACIÓN
+Existen métodos de comunicación automáticos para el envío de alertas.
  
- - **SNS**: Indicate the name of the sns element. Ex. [Eyp-sns- [enviroment] -alarms-team]
- - **Application Mailing**: Own management of the alerted monitoring service.
- - **Others**: Any other element that reports alarmed.
+ - **SNS**: Indicar el nombre del elemento sns. Ej. [Eyp-sns-[entorno] -alarmas-equipo]
+ - **Correo de aplicaciones**: Gestión propia del servicio de monitorización alertado.
+ - **Otros**: Cualquier otro elemento que informe de las alarmas.
  
-## RECOMMENDED ACTIONS
-Actions to follow when the alerted is reproduced.
+## ACCIONES RECOMENDADAS
+Acciones a seguir cuando se reproduce el alertado.
 
- - *Link to procedure or documentation*
- - *Escalation contact (phone, mail, etc)*
+ - *Enlace a procedimiento o documentación*.
+ - *Contacto de escalada (teléfono, correo, etc)*
 
-## CONTACTS
+## CONTACTOS
 
-Contacts that receive the indicated alerted.
+Contactos que reciben la alerta indicada.
  
- - *Contact1 @ email*
- - *Contact2 @ email*
- - *Contact3 @ email*
+ - *Contacto1 @ email*
+ - *Contacto2 @ email*
+ - *Contacto3 @ email*
 
-## ADDIOTINAL DOCUMENTATION
-Indicate if there is a link or document that provides more information to the alerted.
+## DOCUMENTACIÓN ADICIONAL
+Indique si existe un enlace o documento que proporcione más información al alertado.
 
 
 ## INTRODUCCION
@@ -130,6 +132,48 @@ Mas información sobre este producto en este enlace:
 	ENLACE
 
     ## INTRODUCTION
+
+## English
+
+## DATA
+ 
+ - **PLATFORM**: Indicate on which monitoring or alerted platform the alarm is.
+
+ - **DESCRIPTION**: What is the purpose of the alarm or monitoring
+
+ - **ELEMENT TO ALERT OR MONITOR**: The name of the element and its type (ec2, RDS, etc)
+
+ - **LOSS OF SERVICE**: Yes or No
+
+ - **HIGH PRIORITY**: High / Medium / Low depending on the relevance of the event.
+
+ - **ATTENTION RANGE**: Indicate the period of time in which the alerted is attended (24x7, 8x5, ...)
+
+ - **RANGO ATENCION**: Indicar el periodo de tiempo en el que se atiende el alertado (24x7, 8x5, ...)
+ 
+## COMMUNICATION MECHANISMS
+There are automatic communication methods for sending alerts.
+ 
+ - **SNS**: Indicate the name of the sns element. Ex. [Eyp-sns- [enviroment] -alarms-team]
+ - **Application Mailing**: Own management of the alerted monitoring service.
+ - **Others**: Any other element that reports alarmed.
+ 
+## RECOMMENDED ACTIONS
+Actions to follow when the alerted is reproduced.
+
+ - *Link to procedure or documentation*
+ - *Escalation contact (phone, mail, etc)*
+
+## CONTACTS
+
+Contacts that receive the indicated alerted.
+ 
+ - *Contact1 @ email*
+ - *Contact2 @ email*
+ - *Contact3 @ email*
+
+## ADDIOTINAL DOCUMENTATION
+Indicate if there is a link or document that provides more information to the alerted.
 
 In this section we will provide information as a guide to the services or elements that we can use for good practices in alarming and monitoring the infrastructure of our project.
 
