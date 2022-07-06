@@ -1,5 +1,61 @@
-This topics and requirements need to be check and discuss in the meeting are:
+## Español
 
+Los temas y requisitos que hay que comprobar y discutir en la reunión son los siguientes
+### Arquitectura
+
+- Diagrama con la siguiente información
+
+	- Servicios públicos (expuestos a Internet - Especificar protocolo de acceso, ejemplo:HTTPS ).
+    - Zonas privadas.
+    - Servicios de AWS utilizados.
+    - Servicios de terceros utilizados.
+    - Conexiones con cuentas on-premise u otras.
+    - CNAMEs con dominios.
+    - Otras incidencias relacionadas con seguridad
+
+</br>
+
+- **Security Groups:**
+
+	- Tener los mínimos privelegios posibles (Ips, referencias a otros sg). 
+    - Nunca usar 0.0.0.0.
+    - Especificar excepciones para ser revisadas por seguridad.
+
+</br>
+
+- **S3 Buckets:** 
+
+	- No hay buckets públicos. 
+    - Especificar excepciones para revisar.
+
+##### Autenticación
+
+- El método para autenticar usuarios está documentado. Si la aplicación está conectada al ADFS, por favor especificarlo.
+
+##### Datos
+
+- Revise la siguiente información para cumplir con los puntos.
+
+	- Todos los datos están encriptados en reposo y en tránsito, con KMS personalizado si los datos son sensibles. 
+    - Por favor, documente los datos sensibles y preséntelos a ciberseguridad. Cumplimiento del GDPR.
+    - Todos los datos se almacenan en la UE.
+    - Todas las contraseñas y secretos se almacenan en servicios como el KMS, el almacén de parámetros o el gestor de secretos y no hay claves o secretos codificados en el repositorio o en la aplicación.
+    
+##### Aplicación (opcional pero requerida en un futuro).
+
+- Asegúrese de que ha pasado la validación de ciberseguridad de las vulnerabilidades y las versiones de las bibliotecas o cualquier dependencia instalada.
+
+##### Solo acceso IAM   (necesita aprobación del CoE)
+
+- Los roles tienen permisos mínimos y aplican el principio de menor privación.
+- Los usuarios con clave de acceso/clave secreta (es decir, el proceso de ingestión) están documentados. Especifíquelo en la revisión.
+
+
+Si tienes todas estas cosas documentadas y/o toda tu arquitectura utiliza piezas pre-aprobadas por seguridad, puedes saltarte la revisión de ciberseguridad enviando toda la información a [Ciberseguridad](EMAIL</u>)</span>.
+
+## English
+
+This topics and requirements need to be check and discuss in the meeting are:
 ### Architecture
 
 - **Diagram with the next information:**
