@@ -1,3 +1,5 @@
+## Español
+
 Información global a alto nivel acerca del producto.   
 Punto de entrada principal con datos y referencias a otros documentos de información relevante para obtener un contexto general del producto (owners, contactos, arquitecturas...).
 
@@ -67,6 +69,9 @@ Entorno|Nombre_Cuenta|ID_Cuenta|
 - Tarea + Enlace al procedmiento
 
 ---
+
+## English
+
 *High-level global information about the product.  
 Main entry point with data and references to other documents of relevant information to obtain a general context of the product (owners, contacts, architectures...).*
 
