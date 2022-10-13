@@ -69,7 +69,7 @@ Para definir los procedimientos de copia de seguridad, es necesario identificar 
  
  La estrategia de contingencia está sujeta a las necesidades de la plataforma/proyecto y suele implicar una solución particular para cada caso, pero estos términos fundamentales deben estar definidos de antemano.
 
-Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
+
 
 
 ## English
